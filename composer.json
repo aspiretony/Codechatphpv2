@@ -1,0 +1,21 @@
+{
+  "name": "aspiretony/codechatv2-apiphp",
+  "description": "SDK para integração da API CodeChat",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://madcrowlyn.com.br",
+  "require": {
+    "php": ">=8.1.0"
+  },
+  "authors": [
+    {
+      "name": "Sir Tonhão",
+      "email": "hptony@outlook.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Apicodechatv2\\": "src/Apicodechatv2"
+    }
+  }
+}
